@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Lobster&family=Noto+Serif+KR&display=swap');
+@import "reset.css";
+@import "variables.css";
+body {
+     font-family: 'Inter', sans-serif;
+     font-family: 'Lobster', cursive;
+     font-family: 'Noto Serif KR', serif;
+     display: flex;
+     justify-content: center;
+     align-items: flex-start;
+     flex-direction: column;
+     flex-wrap: wrap;
+     height:auto;
+     padding-left: 30px;
+}
+
+img {
+     position:fixed;
+     top:0px;
+     left:0px;
+     z-index: -100;
+     width:100%;
+     height: 100%;
+     opacity:80%;
+}
+#clock {
+     font-size: 100px;
+     margin-top:100px;
+}
+#login-form {
+     margin: 30px 10px;
+     width:100%;
+}
+#login-form input{
+     border:none;
+     padding:15px 0px;
+     font-size:18px;
+     text-align: center;
+     opacity: 70%;
+}
+#login-form button {
+     border:none;
+     padding:15px;
+     font-size:18px;
+     text-align: center;
+     opacity: 70%;
+     margin-left: 10px;
+}
+#greeting {
+     font-size: 50px;
+     margin:20px 10px;
+}
+#right {
+     padding: 30px;
+     position: fixed;
+     align-self: flex-end;
+     display: flex;
+     align-items: flex-start;
+     flex-direction: column;
+     width:25%;
+     height:100%;
+     right:0px;
+     top: 0px;
+     background-color: white;
+     opacity: 80%;
+}
+#todo-form input {
+     border: 1px solid rgb(181, 181, 181);
+     padding:15px 0px;
+     font-size:18px;
+     text-align: center;
+     width: 200%;
+}
+#todo-list {
+     margin-top:20px;
+}
+#todo-list li {
+     margin-top:15px;
+}
+#todo-list button {
+     border: none;
+     background-color: none;
+     margin-right: 10px;
+     
+}
+#weather {
+     position: fixed;
+     bottom: 20px;
+     right: 20px;
+}
+#quote {
+     position: fixed;
+     bottom: 20px;
+     left: 20px;
+}
+.hidden {
+     display: none;
+}
